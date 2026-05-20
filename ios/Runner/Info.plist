@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<key>$(DEVELOPMENT_LANGUAGE)</key>
+	<key>CFBundleDisplayName</key>
+	<key>ScanMind</key>
+	<key>CFBundleExecutable</key>
+	<key>$(EXECUTABLE_NAME)</key>
+	<key>CFBundleIdentifier</key>
+	<key>$(PRODUCT_BUNDLE_IDENTIFIER)</key>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<key>6.0</key>
+	<key>CFBundleName</key>
+	<key>scanmind</key>
+	<key>CFBundlePackageType</key>
+	<key>APPL</key>
+	<key>CFBundleShortVersionString</key>
+	<key>$(FLUTTER_BUILD_NAME)</key>
+	<key>CFBundleSignature</key>
+	<key>????</key>
+	<key>CFBundleVersion</key>
+	<key>$(FLUTTER_BUILD_NUMBER)</key>
+	<key>LSRequiresIPhoneOS</key>
+	<key>true</key>
+	
+	<!-- Permissions required for ScanMind iOS integration -->
+	<key>NSCameraUsageDescription</key>
+	<key>ScanMind requires camera access to scan physical document pages and run local text extraction models.</key>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<key>ScanMind requires gallery access to let you import photo files for PDF compiling and OCR text recognition.</key>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<key>ScanMind requires system permissions to write scanned document pages to your device library.</key>
+	
+	<key>UILaunchStoryboardName</key>
+	<key>LaunchScreen</key>
+	<key>UIMainStoryboardFile</key>
+	<key>Main</key>
+	<key>UISupportedInterfaceOrientations</key>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+</dict>
+</plist>
